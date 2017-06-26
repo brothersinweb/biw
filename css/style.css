@@ -70,12 +70,21 @@ small {
 .second{
   background-image: url("../slike/programiranje.jpg");
 }
-.dessert{
+.third{
   background-image: url('../slike/programiranje2.jpg');
+  position: relative;
+  bottom: 0;
 }
-.price {
-  float: right;
+
+footer{
+  text-align: center;
 }
+
+footer div{
+  text-align: center;
+  color: white;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;
