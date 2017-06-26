@@ -30,16 +30,22 @@
 	</div>
 	
 <footer>
-	<div>
-	    <form method="post">
-	        <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
-	        
-	        <label for="email">Email:</label><br/><input type="email" name="email" placeholder="vas@mail.com"/><br/><br/>
-	        
-	        <label for="message">Poruka:</label><br/>
-	        <textarea  name="message" rows="20" cols="70"></textarea>
-	        <input type="submit" name="submit" value="Posalji">
-	    </form>
+	<div id="first-footer">
+		<div id="second-div">
+			<div id="third-div">
+				<div id="fourth-div">
+				    <form method="post">
+				        <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+				        
+				        <label for="email">Email:</label><br/><input type="email" name="email" placeholder="vas@mail.com"/><br/><br/>
+				        
+				        <label for="message">Poruka:</label><br/>
+				        <textarea  name="message" rows="16" cols="50"></textarea>
+				        <input type="submit" name="submit" value="Posalji">
+				    </form>	
+				</div>
+			</div>
+		</div>
 	</div>
 </footer>
 

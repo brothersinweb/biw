@@ -8,7 +8,7 @@ div {
   height: 800px;
   background-size: cover;
   position: relative;
-  
+  cursor: pointer;
   border-radius: 2px;
 }
 h1 {
@@ -72,17 +72,48 @@ small {
 }
 .third{
   background-image: url('../slike/programiranje2.jpg');
+
+}
+
+#first-div{
+  color: white;
+  margin: 0px;
   position: relative;
-  bottom: 0;
+  border: 1px dotted white;
+  background: #2050;
+  widows: 100%;
+  height: 100%;
+  cursor: default;
 }
 
-footer{
-  text-align: center;
+#second-div {
+  margin:5% 5%;
+  border: 1px dotted white;
+  position: relative;
+  background: #161616;
+  widows: 80%;
+  height: 100%;
+  cursor: default;
 }
-
-footer div{
+#third-div {
+  margin:5% 5%;
+  cursor: default;
+  position: relative;
+  background: #111111;
+  widows: 60%;
+  height: 80%;
+  border: 1px dotted white;
+}
+#fourth-div {
+  margin:5% 5%;
+  border: 1px dotted white;
+  position: relative;
+  background: #000;
+  widows: 60%;
+  height: 80%;
   text-align: center;
   color: white;
+  cursor: default;
 }
 
 @media (max-width: 500px) {
