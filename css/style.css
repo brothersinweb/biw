@@ -1,0 +1,99 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 ;
+  max-width: 100%;
+  background: #202020;
+}
+div {
+  height: 800px;
+  background-size: cover;
+  position: relative;
+  
+  border-radius: 2px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 85px;
+  color: #E0E0E0;
+  margin: 60px 0 0 0;
+}
+h2 {
+
+  text-align: center;
+  color: #E0E0E0;
+  margin: 0px 0 0px 0;
+}
+.preko{
+  position: absolute;
+}
+p {
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,.6), rgba(0,0,0,1));
+  padding: 0px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small p{
+  font-size: 25px;
+
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+  width: 100%;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("../slike/php.jpeg"); 
+}
+.second{
+  background-image: url("../slike/programiranje.jpg");
+}
+.dessert{
+  background-image: url('../slike/programiranje2.jpg');
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
