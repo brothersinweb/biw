@@ -8,9 +8,6 @@ div {
   height: 800px;
   background-size: cover;
   position: relative;
-  cursor: pointer;
-  border-radius: 2px;
-  border: 1px solid blue;
   text-align: center;
 }
 .fixed {
@@ -23,15 +20,21 @@ h1 {
   font-size: 85px;
   color: #E0E0E0;
   z-index: 99;
-  border: 1px solid red;
-  margin: 50px -300px;
+  margin: 200px -300px;
   left: 50%;
+  position: absolute;
+  border-bottom: 2px solid white;
+  border-radius: 20%;
+  text-shadow:0 5px  5px black;
+  box-shadow:0 7px  5px black;
 }
 h2 {
   text-align: center;
   color: #E0E0E0;
-  margin: 200px 0 0px 0;
-
+  margin: 100px -200px;
+  left: 50%;
+  text-shadow:0 5px  5px black;
+  position: absolute;
 }
 header div{
   height: 400px;
@@ -49,18 +52,24 @@ header div{
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  z-index: 1;
 }
-
+.ukras{
+  position: absolute;
+  background: linear-gradient(bottom, rgba(0,0,0,0), rgba(32,32,32,1));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(32,32,32,1));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(32,32,32,1));
+  height: 40px;
+  width: 100%;
+  z-index: 9999;
+}
 
 @keyframes arrow{
     0%{bottom:220px;}
     50%{opacity:190px;}
     100%{bottom:160px;}
 }
-
-p {
-  font-size: 30px;
-  color: rgba(255,255,255,1);
+.firstP, .secondP, .thirdP{
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -77,22 +86,44 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
-small p{
-  font-size: 25px;
-
+h3{
+  color: rgba(255,255,255,1);
+  text-align: center;
+  margin-top: 0;
+}
+p {
+  font-size: 24px;
+  color: rgba(255,255,255,1);
+  margin:0 25px 15px 25px;
+}
+.firstPinDiv{
+  display: none;
+  z-index: 98;
+}
+.secondPinDiv{
+  display: none;
+  z-index: 98;
+}
+.thirdPinDiv{
+  display: none;
+  z-index: 98;
 }
 
-small {
-  opacity: 0;
-}
-
-.show-description p {
-  height: 150px;
+.firstP:hover{
+  height: 280px;
   width: 100%;
+  z-index: 9;
+}
+.secondP:hover{
+  height: 280px;
+  width: 100%;
+  z-index: 9;
 }
 
-.show-description small {
-  opacity: 1;
+.thirdP:hover{
+  height: 280px;
+  width: 100%;
+  z-index: 9;
 }
 
 .first{
@@ -103,10 +134,13 @@ small {
   background-attachment: fixed;
 }
 .third{
-  background-image: url('../slike/programiranje2.jpg');
+  background-image: url('../slike/sqlin.jpg');
+  background-size: contain;
 
 }
 
+
+/*========================FOOTER============================*/
 #first-div {
   cursor: default;
   background-image: url(../slike/pozadina-footera.gif);
@@ -130,6 +164,8 @@ small {
 form{
   padding-top: 50px;
 }
+
+/*================================MEDIA==============================*/
 
 @media (max-width: 500px) {
   h1 {

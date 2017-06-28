@@ -12,30 +12,38 @@
 <body>
 <header>
 	<div>
-		<h1>Brothersinweb</h1>
+		<h1>BrothersInWeb</h1>
 		<h2>Udji u svet interneta na velika vrata</h2>
 	</div>
 </header>
+<div class="ukras"></div>
 	<div class="first">
-
-		<p>U eri u kojoj je internet sveprisutna stvar u životu svakog čoveka, ako ne postojite na mreži, kao da uopšte nepostojite. Ljudi su navikli da 
+	<div class="firstP">
+		<h3>Zašto mi?</h3><br><br>
+		<p class="firstPinDiv">
+		U eri u kojoj je internet sveprisutna stvar u životu svakog čoveka, ako ne postojite na mreži, kao da uopšte nepostojite. Ljudi su navikli da 
 		imaju informacije na dohvat ruke i ako ne nađu odgovor na svoje pitanje brzo će odustati. Vi možete biti njihov odgovor na postavljeno pitanje,
 		a vaš sajt može predstavljati upravo ono što ljudi traže. Treba vam odgovor na pitanje "kako to postći?". Mi vam dajemo odgovor i pružamo rešenja. 
 		 <br />
 			<small></small></p>
+			</div>
 		<img src="slike/arrow-down.png" alt="arrow-down" class="arrow-down">
 	</div>
 
 	<div class="second">
-		<p>i tako<br />
-			<small>lkjsdfoiownefowaienf f aoe fwefoawejfnoiawef wef oawie fwa efiawejfiwajefia fj </small></p>
+		<div class="secondP">
+		<p class="secondPinDiv">i tako<br />
+			lkjsdfoiownefowaienf f aoe fwefoawejfnoiawef wef oawie fwa efiawejfiwajefia fj</p>
 			<img src="slike/arrow-down.png" alt="arrow-down" class="arrow-down">
+	</div>
 	</div>
 
 	<div class="third">
-		<p>kajsdnfadefmoaskdfmlkm<br />
-			<small>jnadoigjsaidkfnsj fdasjnfoasn fas foiuasnjfikjasldf </small></p>
+	<div class="thirdP">
+		<p class="thirdPinDiv">kajsdnfadefmoaskdfmlkm<br />
+			jnadoigjsaidkfnsj fdasjnfoasn fas foiuasnjfikjasldf</p>
 			<img src="slike/arrow-down.png" alt="arrow-down" class="arrow-down">
+	</div>
 	</div>
 	
 <footer>

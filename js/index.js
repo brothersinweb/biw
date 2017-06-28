@@ -1,10 +1,19 @@
 $(document).ready(function(){
-	$('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-	$('.preko').hover(function() {
-      $('div').toggleClass('show-description');
-  });
+	$(".firstP").hover(function(){
+    $('.firstPinDiv').slideDown(500);
+    }, function(){
+    $('.firstPinDiv').slideUp(1);
+});
+$(".secondP").hover(function(){
+    $('.secondPinDiv').fadeIn(500);
+    }, function(){
+    $('.secondPinDiv').fadeOut(1);
+});
+$(".thirdP").hover(function(){
+    $('.thirdPinDiv').slideDown(500);
+    }, function(){
+    $('.thirdPinDiv').slideUp(1);
+});
 
 if ($(window).scrollTop()==10) {
 	$('h1').addClass('.fixed');
