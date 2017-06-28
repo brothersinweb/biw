@@ -18,8 +18,11 @@
 </header>
 	<div class="first">
 
-		<p>slajdhflksajdflk<br />
-			<small>lkasjdflaksjdflkasjdlfkasdfs dkjanfsdl fsadjnfa sdfj asdjfnaskndf sadf oaskd fpkasdf</small></p>
+		<p>U eri u kojoj je internet sveprisutna stvar u životu svakog čoveka, ako ne postojite na mreži, kao da uopšte nepostojite. Ljudi su navikli da 
+		imaju informacije na dohvat ruke i ako ne nađu odgovor na svoje pitanje brzo će odustati. Vi možete biti njihov odgovor na postavljeno pitanje,
+		a vaš sajt može predstavljati upravo ono što ljudi traže. Treba vam odgovor na pitanje "kako to postći?". Mi vam dajemo odgovor i pružamo rešenja. 
+		 <br />
+			<small></small></p>
 		<img src="slike/arrow-down.png" alt="arrow-down" class="arrow-down">
 	</div>
 
